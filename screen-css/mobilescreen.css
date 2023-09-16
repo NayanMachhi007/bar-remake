@@ -1,0 +1,11 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    .banner-main-block{
+      justify-content: flex-start;
+    }
+
+    /* feature-no-image-main */
+
+    .feature-no-image-top-bottom-margin{
+      margin:5.2rem 0;
+    }
+  }

@@ -1,0 +1,13 @@
+@media (min-width: 481px) and (max-width: 820px) {
+  .banner-main-block{
+    justify-content: flex-start;
+  }
+
+  .heading-three{
+    font-size: 1.5rem;
+  }
+
+  .feature-no-image-top-bottom-margin{
+    margin:5.2rem 0;
+  }
+}
