@@ -287,6 +287,11 @@ header .logo {
     color: white;
 }
 
+.feature-content-left-text-main{
+    display: flex;
+    /* align-items: flex-end; */
+}
+
 /* Image Gallery */
 .left-side-image-gallery {
     max-width: 500px;
