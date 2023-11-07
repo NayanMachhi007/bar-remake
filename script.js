@@ -1,5 +1,5 @@
 // Loader Javascript
-var preloader = document.getElementById("loading");
+let preloader = document.getElementById("loading");
 window.addEventListener('load', function(){
   preloader.style.display = 'none';
   })
@@ -20,7 +20,7 @@ mobile_nav.addEventListener('click', () => togglenavmain());
 // Scroll Up and down 
 
 
-var prevScrollpos = window.pageYOffset;
+let prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
